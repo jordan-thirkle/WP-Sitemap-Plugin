@@ -152,8 +152,7 @@ function sitemap_plugin_activate() {
     flush_rewrite_rules();
 }
 
-register_deactivation_hook(__
-FILE, 'sitemap_plugin_deactivate');
+register_deactivation_hook(__FILE, 'sitemap_plugin_deactivate');
 function sitemap_plugin_deactivate() {
     flush_rewrite_rules();
 }
