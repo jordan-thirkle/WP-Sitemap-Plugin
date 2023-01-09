@@ -39,4 +39,12 @@ function sitemap_plugin_settings_page_html() {
 }
 
 function sitemap_plugin_activate() {
-    add_option(SITEMAP_PLUGIN_OPTIONS, array(
+    add_option(SITEMAP_PLUGIN_OPTIONS, array('ping_search_engines' => 1,
+        'show_footer_link' => 1,
+    ));
+    flush_rewrite_rules();
+}
+
+function sitemap_plugin_deactivate() {
+    flush_rewrite_rules();
+}
