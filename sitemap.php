@@ -1,11 +1,11 @@
 <?php
 /*
  * Plugin Name: Sitemap Plugin
- * Plugin URI: 
+ * Plugin URI: https://jordanthirkle.com/wp-sitemap-plugin
  * Description: Generates a sitemap and adds a link to it in the footer of the page. Automatically updates the sitemap.xml file and pings search engines when changes are made to the blog.
  * Version: 1.0
- * Author: Your Name
- * Author URI: 
+ * Author: Jordan Thirkle
+ * Author URI: https://jordanthirkle.com
  * License: GPL2
  */
 
